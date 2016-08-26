@@ -36,6 +36,11 @@ white block是一个以白色简约为题的Ghost Blog主题！
 
 有需要定制主题的朋友可以到我网站取得微信或直接mail:   i@weic96.cn 与我取得联系；
 
+<br>
+
 ###赞助
 
 如果你喜欢我的作品且手头富裕的话可以考虑赞助White-Block,以支持本款主题的开发；
+
+**支付宝**
+![](http://www.weic96.cn/images/alipay.jpg)
