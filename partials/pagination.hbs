@@ -1,0 +1,21 @@
+{{!-- Previous/next page links - displayed on every page --}}
+{{!-- pagination --}}
+<div class="paging">
+	<div class="paging-up">
+		{{#if prev}}
+		<a href="{{page_url prev}}">Previous Page</a>
+		{{else}}
+		<span title="no more!">Previous Page</span>
+		{{/if}}
+	</div>
+	<div class="paging-text">
+		Page {{page}} of {{pages}}
+	</div>
+	<div class="paging-down">
+		{{#if next}}
+		<a href="{{page_url next}}">Next Page</a>
+		{{else}}
+		<span title="no more!">Next Page</span>
+		{{/if}}
+	</div>
+</div>

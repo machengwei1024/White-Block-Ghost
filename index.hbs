@@ -1,0 +1,73 @@
+{{!< default}}
+{{!-- The tag above means - insert everything in this file into the {body} of the default.hbs template --}}
+
+{{!-- The main content area on the homepage --}}
+<div class="col-md-8 index-post">
+		{{! The tag below includes the post loop - partials/loop.hbs }}
+		{{> "loop"}}
+		{{pagination}}
+</div>
+<div class="col-md-4">
+					<div class="sidebar-about index-sidebar">
+						<h3 class="sidebar-title">About</h3>
+						<hr>
+						<img src="{{@blog.logo}}">
+						<p>About me? um, i like Linux and Game; Year! Welcome to my website!</p>
+					</div>
+					<div class="index-sidebar sidebar-social-cintact">
+						<h3>Social contact</h3>
+						<hr>
+						<a href=""><i class="iconfont icon-github1"></i></a>
+						<a href=""><i class="iconfont icon-coding"></i></a>
+						<a href=""><i class="iconfont icon-weixin"></i></a>
+						<a href=""><i class="iconfont icon-qqkongjian"></i></a>
+						<a href=""><i class="iconfont icon-zhihu"></i></a>
+						<a href=""><i class="iconfont icon-youxiang1"></i></a>
+					</div>
+					<div class="index-sidebar sidebar-follow">
+						<h3>Follow</h3>
+						<hr>
+						<a href=""><i class="iconfont icon-weibo1"></i></a>
+						<a href=""><i class="iconfont icon-txweibo"></i></a>
+						<a href=""><i class="iconfont icon-tieba1"></i></a>
+						<a href=""><i class="iconfont icon-youku"></i></a>
+						<a href=""><i class="iconfont icon-youtube1"></i></a>
+						<a href=""><i class="iconfont icon-facebook-copy"></i></a>
+						<a href=""><i class="iconfont icon-tuite"></i></a>
+						<a href=""><i class="iconfont icon-google1"></i></a>
+					</div>
+					<div class="index-sidebar sidebar-tag">
+						<h3>Tags</h3>
+						<hr>
+						<a href="" class="tags">Demo</a>
+						<a href="" class="tags">Demo</a>
+						<a href="" class="tags">测试</a>
+						<a href="" class="tags">Demo</a>
+						<a href="" class="tags">标签云</a>
+						<a href="" class="tags">OK</a>
+						<a href="" class="tags">website</a>
+						<a href="" class="tags">Demo</a>
+						<a href="" class="tags">测试</a>
+						<a href="" class="tags">Demo</a>
+						<a href="" class="tags">标签云</a>
+						<a href="" class="tags">Demo</a>
+						<a href="" class="tags">测试</a>
+						<a href="" class="tags">Demo</a>
+						<a href="" class="tags">标签云</a>
+						<a href="" class="tags">OK</a>
+						<a href="" class="tags">website</a>
+						<a href="" class="tags">Demo</a>
+						<a href="" class="tags">测试</a>
+						<a href="" class="tags">Demo</a>
+					</div>
+					<div class="index-sidebar sidebar-link">
+						<h3>Link</h3>
+						<hr>
+						<ul>
+							<li><a href=""><i class="iconfont icon-link"></i> Link Name</a></li>
+							<li><a href=""><i class="iconfont icon-link"></i> Link Name</a></li>
+							<li><a href=""><i class="iconfont icon-link"></i> Link Name</a></li>
+							<li><a href=""><i class="iconfont icon-link"></i> Link Name</a></li>
+						</ul>
+					</div>
+				</div>

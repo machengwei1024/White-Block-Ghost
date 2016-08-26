@@ -1,0 +1,20 @@
+{{!-- Previous/next page links - only displayed on page 2+ --}}
+{{!-- This is the post loop - each post will be output using this markup --}}
+{{#foreach posts}}
+					<article class="index-post-block">
+						<header>
+							<h3 class="post-title"><a href="{{url}}">{{title}}</a></h3>
+							<p class="index-post-author">
+							作者:<a href="">{{author.name}}</a>
+							&nbsp;&nbsp;
+							标签<a href="">{{tags prefix=": "}}</a>,
+							</p>
+						</header>	
+						<section class="index-post-demo">
+							<p>{{excerpt words="26"}}</p>
+						</section>
+						<footer>
+							<time class="index-post-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
+						</footer>
+					</article>
+{{/foreach}}
