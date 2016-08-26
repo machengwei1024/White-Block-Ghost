@@ -44,4 +44,4 @@ white block是一个以白色简约为题的Ghost Blog主题！
 
 **支付宝**
 
-![](http://www.weic96.cn/images/alipay.jpg 240x240)
+<img src="http://www.weic96.cn/images/alipay.jpg" width="240px">
