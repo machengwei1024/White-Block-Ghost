@@ -33,7 +33,7 @@ white block是一个以白色简约为题的Ghost Blog主题！
 
 <hr>
 
-有需要定制主题的朋友可以到我网站取得微信或直接mail:   i@weic96.cn 与我取得联系；
+有需要定制主题的朋友可以到[我网站](http://weic96.cn)点击微信或直接mail:   i@weic96.cn 与我取得联系；
 
 <br>
 
