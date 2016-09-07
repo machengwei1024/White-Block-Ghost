@@ -61,7 +61,7 @@ White-Block是一个以白色立体方块为题的Ghost主题(模板,theme)；
 
 ---接着是图标的修改，你可以对照你的网站然后修改对应icon的链接，如下面两张图，红框里的就是你的icon
 
-![sidebar-fllow.png]https://github.com/Weic96/Whie-Block/blob/master/about-images/sidebar-fllow.png)
+![sidebar-fllow.png](https://github.com/Weic96/Whie-Block/blob/master/about-images/sidebar-fllow.png)
 
 
 ![sidebar-fllow2.png](https://github.com/Weic96/Whie-Block/blob/master/about-images/sidebar-fllow2.png)
