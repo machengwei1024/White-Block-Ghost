@@ -11,12 +11,16 @@
 					<div class="sidebar-about index-sidebar">
 						<h3 class="sidebar-title">About</h3>
 						<hr>
-						<img src="{{@blog.logo}}">
-						<p>About me? um, i like Linux and Game; Year! Welcome to my website!</p>
+						<div class="sidebar-about-logo">
+							<img src="{{@blog.logo}}">
+						</div>
+{{!-- 这里是关于我的地盘   (about me) --}}
+						<p>About me? Well, my name is Weic. is a variety of professional young man (small? Joke), Web developer? Businessman? Crazy game player? Well, you know all about it!</p>
 					</div>
 					<div class="index-sidebar sidebar-social-cintact">
 						<h3>Social contact</h3>
 						<hr>
+{{!-- 这里是社交按钮的地盘   (Social contact) --}}
 						<a href=""><i class="iconfont icon-github1"></i></a>
 						<a href=""><i class="iconfont icon-coding"></i></a>
 						<a href=""><i class="iconfont icon-weixin"></i></a>
@@ -27,6 +31,7 @@
 					<div class="index-sidebar sidebar-follow">
 						<h3>Follow</h3>
 						<hr>
+{{!-- 这里是关注按钮的地盘   (follow me) --}}
 						<a href=""><i class="iconfont icon-weibo1"></i></a>
 						<a href=""><i class="iconfont icon-txweibo"></i></a>
 						<a href=""><i class="iconfont icon-tieba1"></i></a>
@@ -39,34 +44,13 @@
 					<div class="index-sidebar sidebar-tag">
 						<h3>Tags</h3>
 						<hr>
-						<a href="" class="tags">Demo</a>
-						<a href="" class="tags">Demo</a>
-						<a href="" class="tags">测试</a>
-						<a href="" class="tags">Demo</a>
-						<a href="" class="tags">标签云</a>
-						<a href="" class="tags">OK</a>
-						<a href="" class="tags">website</a>
-						<a href="" class="tags">Demo</a>
-						<a href="" class="tags">测试</a>
-						<a href="" class="tags">Demo</a>
-						<a href="" class="tags">标签云</a>
-						<a href="" class="tags">Demo</a>
-						<a href="" class="tags">测试</a>
-						<a href="" class="tags">Demo</a>
-						<a href="" class="tags">标签云</a>
-						<a href="" class="tags">OK</a>
-						<a href="" class="tags">website</a>
-						<a href="" class="tags">Demo</a>
-						<a href="" class="tags">测试</a>
-						<a href="" class="tags">Demo</a>
+						{{tag_cloud limit="all"}}
 					</div>
 					<div class="index-sidebar sidebar-link">
 						<h3>Link</h3>
 						<hr>
 						<ul>
-							<li><a href=""><i class="iconfont icon-link"></i> Link Name</a></li>
-							<li><a href=""><i class="iconfont icon-link"></i> Link Name</a></li>
-							<li><a href=""><i class="iconfont icon-link"></i> Link Name</a></li>
+{{!-- 这里是友情链接的地盘   (Links) --}}
 							<li><a href=""><i class="iconfont icon-link"></i> Link Name</a></li>
 						</ul>
 					</div>
