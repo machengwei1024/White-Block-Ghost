@@ -3,7 +3,7 @@
 <head>
     {{!-- Document Settings --}}
 <meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
     {{!-- Page Meta --}}
     <title>{{meta_title}}</title>
     <meta name="description" content="{{meta_description}}" />		
@@ -29,7 +29,11 @@
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 					<span class="iconfont icon-caidan1"></span>
 					</button>
-					{{#if @blog.logo}}<a class="navbar-brand" href="{{@blog.url}}"><img src="{{@blog.logo}}" /></a>{{/if}}
+					{{#if @blog.logo}}
+						<a class="navbar-brand" href="{{@blog.url}}"><img src="{{@blog.logo}}"></a>
+					{{else}}
+						<a class="navbar-brand2" href="{{@blog.url}}">{{@blog.title}}</a>
+					{{/if}}
 				</div>
 				{{navigation}}
 			</div>
