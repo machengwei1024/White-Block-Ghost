@@ -16,7 +16,7 @@
 							<time class="post-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
 						</footer>
 					</article>
-{{/post}}
+					
 					<div class="post-page-share">
 						<h3>
 						Share this post on
@@ -33,10 +33,12 @@
 						</h3>
 						<hr>
 						{{#next_post}}
-						<p>Last one : &nbsp;&nbsp;<a href="{{url}}">{{title}}</a></p>
+							<p>Last one : &nbsp;&nbsp;<a href="{{url}}">{{title}}</a></p>
 						{{/next_post}}
 						{{#prev_post}}
-						<p>Next article : &nbsp;&nbsp;<a href="{{url}}">{{title}}</a></p>
+							<p>Next article : &nbsp;&nbsp;<a href="{{url}}">{{title}}</a></p>
 						{{/prev_post}}
 					</div>
 				</div>
+{{/post}}
+					
