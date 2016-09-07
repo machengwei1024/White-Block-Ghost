@@ -578,10 +578,10 @@ hr{
 	-ms-box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);
 	-o-box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);
 }
-.post-page-main-img{
+.post-page-main img{
 	display: block;
-	width: 800px;
-	max-width: 100%;
+	width: 95%;
+	max-width: 95%;
 	height: auto;
 	margin: 15px auto;
 	box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);
