@@ -1,9 +1,10 @@
 #White-Block
 White-Block是一个以白色立体方块为题的Ghost主题(模板,theme)；
-![](https://github.com/Weic96/Whie-Block/blob/master/white-block.jpg)
+![](https://github.com/Weic96/Whie-Block/blob/master/about-images/white-block.jpg)
 
 ###相关链接
 [演示(Demo)](http://weic.ghost.io)
+
 [English Document](https://github.com/Weic96/Whie-Block/blob/master/en-Readme)
 
 ###页面
@@ -56,18 +57,18 @@ White-Block是一个以白色立体方块为题的Ghost主题(模板,theme)；
 
 ---首先是关于我的logo和文本，看到下图的红框里了吗？第一个框是头像的，如果你的博客logo不能作为你的头像的话你可以在这里修改你的头衔路径；第二个框里的p标签里的文本就是你的介绍，你可以修改P标签里的内容；
 
-![sidebar-about.png](.\White-Block-master\sidebar-about.png)
+![sidebar-about.png](https://github.com/Weic96/Whie-Block/blob/master/about-images/sidebar-about.png)
 
 ---接着是图标的修改，你可以对照你的网站然后修改对应icon的链接，如下面两张图，红框里的就是你的icon
 
-![sidebar-fllow.png](.\White-Block-master\sidebar-fllow.png)
+![sidebar-fllow.png]https://github.com/Weic96/Whie-Block/blob/master/about-images/sidebar-fllow.png)
 
 
-![sidebar-fllow2.png](.\White-Block-master\sidebar-fllow2.png)
+![sidebar-fllow2.png](https://github.com/Weic96/Whie-Block/blob/master/about-images/sidebar-fllow2.png)
 
 ---然后是友情链接，还是对应下面的图片来说，红框里都标示了,红箭头指的是友情链接的网址，蓝箭头指的是友情链接的名字；
 
-![sidebar-links.png](.\White-Block-master\sidebar-links.png)
+![sidebar-links.png](https://github.com/Weic96/Whie-Block/blob/master/about-images/sidebar-links.png)
 
 ---最后还有一个标签云了，这个比较独特，因为Ghost官方没有带标签云这个功能，所以本主题的标签云实现方式来自Ghost中文网，仅支持Ghost0.45以上的版本，具体实现方式你可以点击这个链接去Ghost中文网查看(http://www.ghostchina.com/output-tag-cloud/) ，我这里一两句也说不清楚；
 
