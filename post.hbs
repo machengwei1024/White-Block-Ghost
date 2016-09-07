@@ -1,13 +1,6 @@
 {{!< default}}
-
-{{!-- The comment above "< default" means - insert everything in this file into
-    the {{{body}}} of the default.hbs template, containing the blog header/footer. --}}
-
-{{!-- Everything inside the #post tags pulls data from the post --}}
 <div class="col-md-12 post-page">
-
 {{#post}}
-
 <article class="{{post_class}}  post-page-header">
 						<h3>{{title}}</h3>
 					</article>
@@ -23,9 +16,7 @@
 							<time class="post-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
 						</footer>
 					</article>
-
 {{/post}}
-
 					<div class="post-page-share">
 						<h3>
 						Share this post on
@@ -41,7 +32,11 @@
 						Recommended reading
 						</h3>
 						<hr>
-						<p>Last one : &nbsp;&nbsp;<a href="">This is demo link</a></p>
-						<p>Next article : &nbsp;&nbsp;<a href="">Linux的权限管理</a></p>
+						{{#next_post}}
+						<p>Last one : &nbsp;&nbsp;<a href="{{url}}">{{title}}</a></p>
+						{{/next_post}}
+						{{#prev_post}}
+						<p>Next article : &nbsp;&nbsp;<a href="{{url}}">{{title}}</a></p>
+						{{/prev_post}}
 					</div>
 				</div>
