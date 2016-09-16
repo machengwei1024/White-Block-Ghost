@@ -5,7 +5,6 @@ White-Block是一个以白色立体方块为题的Ghost主题(模板,theme)；
 ###相关链接
 [演示(Demo)](http://weic.ghost.io)
 
-[English Document](https://github.com/Weic96/Whie-Block/blob/master/EN-README.md)
 
 ###页面
 	*首页
