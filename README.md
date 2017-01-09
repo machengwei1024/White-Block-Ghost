@@ -2,8 +2,6 @@
 White-Block是一个以白色立体方块为题的Ghost主题(模板,theme)；
 ![](https://github.com/Weic96/Whie-Block/blob/master/about-images/white-block.jpg)
 
-###相关链接
-[演示(Demo)](http://weic.ghost.io)
 
 
 ###页面
@@ -78,8 +76,7 @@ White-Block是一个以白色立体方块为题的Ghost主题(模板,theme)；
 如果你觉得我的主题不错的话，你可以考虑支持下我(下方我的网站里)，以便为此主题增添更棒的效果以及开发出更多的主题；
 
 ###关于作者
-一只Web码农，专注前端一万年；
 
-我的网站 http://weic96.cn
+网站 https://weic96.cn
 
-我的邮箱 i@weic96.cn (如果有问题发邮件时请注明什么事情！)
+邮箱 i@weic96.cn
