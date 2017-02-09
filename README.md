@@ -41,7 +41,7 @@ White-Block是一个以白色立体方块为题的Ghost主题(模板,theme)；
     -bower.json
     
 ###框架
-	*采用了目前最流行的bootstrap框架；
+	*采用bootstrap框架；
     *使用了iconfont.cn的icon；
     
 ###安装方法
@@ -67,15 +67,10 @@ White-Block是一个以白色立体方块为题的Ghost主题(模板,theme)；
 
 ![sidebar-links.png](https://github.com/Weic96/Whie-Block/blob/master/about-images/sidebar-links.png)
 
----最后还有一个标签云了，这个比较独特，因为Ghost官方没有带标签云这个功能，所以本主题的标签云实现方式来自Ghost中文网，仅支持Ghost0.45以上的版本，具体实现方式你可以点击这个链接去Ghost中文网查看(http://www.ghostchina.com/output-tag-cloud/) ，我这里一两句也说不清楚；
+---最后还有一个标签云了，这个比较独特，因为Ghost官方没有带标签云这个功能，所以本主题的标签云实现方式来自Ghost中文网，仅支持Ghost0.45以上的版本，具体实现方式你可以点击这个链接去Ghost中文网查看(http://www.ghostchina.com/output-tag-cloud/) ，我这里一两句也说不清楚；还有一个比较简单的方法https://weic96.cn/ghost-cloud-tags/
 
-###我的工作
-如果你需要一款自己设计的主题的话，你或许可以联系我，为你开发一款属于你自己的主题；
 
-###支持
-如果你觉得我的主题不错的话，你可以考虑支持下我(下方我的网站里)，以便为此主题增添更棒的效果以及开发出更多的主题；
-
-###关于作者
+###联系作者
 
 网站 https://weic96.cn
 
